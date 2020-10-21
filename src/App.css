@@ -1,0 +1,152 @@
+/* .my-custom-class{
+    border: 5px solid saddlebrown;
+} */
+/* p{
+    border: 5px solid saddlebrown;
+} */
+.Menu ul li {
+  display: inline-block;
+  /* padding: 8px; */
+}
+
+.displayblock {
+  display: none;
+}
+
+.displaynone {
+  display: block;
+}
+
+.navbar-toggler {
+  display: none;
+}
+
+nav {
+  background-color: #7399c6;
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 0;
+  padding-top: 12px;
+}
+
+nav div ul li a {
+  padding: 15px;
+  text-decoration: none;
+  color: aliceblue;
+}
+nav div ul li a:hover {
+  background-color: #384e68;
+  color: white;
+}
+/* @media (min-width: 1200px) for Desktop lg*/
+@media screen and (min-width: 993px) {
+  .container {
+    width: 980px;
+    position: relative;
+    margin-top: 80px;
+  }
+}
+
+/* @media (min-width: 992px) for laptop  md*/
+@media screen and (min-width: 720px) and (max-width: 992px) {
+  .container {
+    width: 720px;
+  }
+}
+/* @media (min-width: 768px) for tabl/fab/palmtop  sm*/
+@media screen and (min-width: 580px) and (max-width: 768px) {
+  .container {
+    width: 580px;
+  }
+  .menudispbtn {
+    display: block;
+  }
+}
+
+/* @media (min-width: 576px) mobile screen xs*/
+@media screen and (min-width: 300px) and (max-width: 580px) {
+  .container {
+    width: 400px;
+  }
+  .menudispbtn {
+    display: block;
+  }
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+}
+footer{
+  position:absolute;
+  bottom:0;
+  display:block;  
+  width:100%
+  
+}
+
+/* .Menu ul li {
+  display: inline-block;
+}
+.home li a{
+  display: inline-block;
+}
+.displaynone {
+  display: block;
+}
+.displayblock {
+  display: none;
+}
+.menudisplay {
+  display: none;
+  float: right;
+}
+nav {
+  float: right;
+  background-color: #7399C6;
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 0;
+  padding-top: 12px;
+}
+nav div ul li a {
+  display: inline-block;
+  padding: 15px;
+  text-decoration: none;
+  color: white;
+}
+nav div ul li a:hover {
+  background-color: #384e68;
+  color: black;
+}
+
+@media screen and (min-width: 751px) and (max-width: 1020px) {
+  .container {
+    width: 980px;
+    position: relative;
+    margin-top: 80px;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 750px) {
+  .container {
+    width: 720px;
+  }
+}
+@media screen and (min-width: 251px) and (max-width: 500px) {
+  .menudisplay {
+    display: block;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 250px) {
+  .menudisplay {
+    display: block;
+  }
+}
+.container {
+  border: 5px solid cornflowerblue;
+  margin-top: 250px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+} */
